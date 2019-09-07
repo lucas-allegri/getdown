@@ -745,6 +745,7 @@ public abstract class Getdown
                     t.setDaemon(true);
                     t.start();
                 }
+                _app.clearValidationMarkers();
             }
 
             // if we have a UI open and we haven't been around for at least 5 seconds (the default
