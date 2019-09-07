@@ -17,12 +17,12 @@ public class Build {
 
     /** The date and time at which the code was built: in {@code yyyy-MM-dd HH:mm} format. */
     public static String time () {
-        return "@build_time@";
+        return "test";
     }
 
     /** The Maven version of the Getdown project. */
     public static String version () {
-        return "@build_version@";
+        return "test";
     }
 
     /**
@@ -38,6 +38,6 @@ public class Build {
      * (e.g. {@code app1.foo.com,app2.bar.com,app3.baz.com}).
      */
     public static List<String> hostWhitelist () {
-        return Arrays.asList(StringUtil.parseStringArray("@host_whitelist@"));
+        return Arrays.asList(StringUtil.parseStringArray("test"));
     }
 }
